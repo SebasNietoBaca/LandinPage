@@ -4,49 +4,73 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Oasis | Todo sobre la banda legendaria</title>
+
+  <!--  Meta Description (menos de 160 caracteres) -->
+  <meta name="description" content="Explora la historia, álbumes y curiosidades de Oasis. Todo lo que un verdadero fan necesita saber." />
+
+  <!--  Meta Keywords -->
+  <meta name="keywords" content="Oasis, banda británica, rock, historia de Oasis, álbumes Oasis, canciones famosas" />
+
+  <!--  Meta Robots -->
+  <meta name="robots" content="index, follow" />
+
+  <!--  Open Graph -->
+  <meta property="og:title" content="Oasis | Todo sobre la banda legendaria" />
+  <meta property="og:description" content="Explora la historia, discografía y curiosidades de Oasis. Contenido exclusivo para verdaderos fans." />
+  <meta property="og:image" content="img/oasisBand.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tu-usuario.github.io/landing-oasis/" />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="main-header">
     <h1>Bienvenido al Universo de Oasis</h1>
     <p class="subtitle">La banda que marcó una generación</p>
-    <img src= "img/oasisBand.jpg"  alt="Foto de la banda Oasis" class="band-image">
+    <img src="img/oasisBand.jpg" alt="Miembros de la banda Oasis en concierto" class="band-image" />
   </header>
 
-  <section class="content">
-    <p>
-      Descubre la historia, discografía, curiosidades y noticias actuales sobre Oasis. Accede a contenido exclusivo, entrevistas, rarezas y mucho más.
-    </p>
-    <ul>
-      <li>🎸 Historia de la banda</li>
-      <li>📀 Álbumes clásicos y canciones icónicas</li>
-      <li>📰 Noticias y actualizaciones</li>
-    </ul>
-    <a href="#registro" class="cta-button">¡Quiero Saber Más!</a>
-  </section>
+  <main>
+    <!--  Sección principal de contenido -->
+    <section class="content">
+      <article>
+        <p>Descubre la historia, discografía, curiosidades y noticias actuales sobre Oasis. Accede a contenido exclusivo, entrevistas, rarezas y mucho más.</p>
+        <ul>
+          <li>🎸 Historia de la banda</li>
+          <li>💿 Álbumes clásicos y canciones icónicas</li>
+          <li>📰 Noticias y actualizaciones</li>
+        </ul>
+        <a href="#registro" class="cta-button">¡Quiero Saber Más!</a>
+      </article>
+    </section>
 
-  <section class="form-section" id="registro">
-    <h2>Suscríbete para recibir contenido exclusivo</h2>
-    <form class="subscription-form">
-      <input type="text" name="nombre" placeholder="Tu nombre" required />
-      <input type="email" name="email" placeholder="Tu correo electrónico" required />
-      <button type="submit">Suscribirme</button>
-    </form>
-  </section>
+    <!--  Formulario de suscripción -->
+    <section class="form-section" id="registro">
+      <h2>Suscríbete para recibir contenido exclusivo</h2>
+      <form class="subscription-form">
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo electrónico" required />
+        <button type="submit">Suscribirme</button>
+      </form>
+    </section>
 
-  <section class="social-media">
-    <h2>Síguenos en redes</h2>
-    <div class="social-links">
-      <a href="https://www.facebook.com/oasisofficial/" target="_blank">Facebook</a>
-      <a href="https://twitter.com/oasis" target="_blank">Twitter</a>
-      <a href="https://www.instagram.com/oasis/" target="_blank">Instagram</a>
-      <a href="https://www.youtube.com/channel/UCDAX2x4zH7N1j1N_3OR3Bdg" target="_blank">YouTube</a>
-      <a href="https://open.spotify.com/artist/2DaxqgrOhkeH0fpeiQq2f4" target="_blank">Spotify</a>
-    </div>
-  </section>
+    <!--  Redes sociales en <nav> -->
+    <section class="social-media">
+      <h2>Síguenos en redes</h2>
+      <nav class="social-links">
+        <a href="https://www.facebook.com/oasisofficial/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/oasis" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.instagram.com/oasis/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/channel/UCXDAZ4XH7MJ1JN_30R8bdg" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://open.spotify.com/artist/2DaxqgrOhkeH0fpeiQq2f4" target="_blank" rel="noopener">Spotify</a>
+      </nav>
+    </section>
+  </main>
 
+  <!--  Footer semántico -->
   <footer class="footer">
-    <p>&copy; 2025 Fans de Oasis. Sitio no oficial.</p>
+    <p>© 2025 Fans de Oasis. Sitio sin fines de lucro para fines educativos.</p>
   </footer>
 </body>
 </html>
